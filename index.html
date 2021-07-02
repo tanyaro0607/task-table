@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <table id="table">
+         <tr>
+            <th>Регистр 0</th>
+            <th>Регистр 1</th>
+            <th>Регистр 2</th>
+            <th>Регистр 3</th>
+            <th>Регистр 4</th>
+            <th>Регистр 5</th>
+            <th>Регистр 6</th>
+            <th>Регистр 7</th>
+            <th>Десятичный вид</th>
+         </tr>
+         <tr class="bite green">
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__decimal">2</td>
+         </tr>
+         <tr class="bite green">
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__decimal">4</td>
+         </tr>
+         <tr class="bite yellow">
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__decimal">85</td>
+         </tr>
+         <tr class="bite red">
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">0</td>
+            <td class="bite__bit">1</td>
+            <td class="bite__decimal">145</td>
+         </tr>
+      </table>
+      <p> Добавить новую строку: </p>
+      <form action="#" data-type="create-row">
+         <input class="new-number" type="number">
+         <button class="add-row">Добавить строку</button>
+      </form>
+      <p> Удалить последнюю строку: </p>
+      <button class="remove-row">Удалить строку</button>
+      <p> Чтобы внести изменения в строку, кликните на ячейку. </p>
+      <script src="script.js"></script>
+   </body>
+</html>

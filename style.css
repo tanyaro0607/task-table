@@ -1,0 +1,42 @@
+td, th {
+    border: 1px solid #000000;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+/*убираем стрелки для поля ввода*/
+.new-number[type='number'] {
+    -moz-appearance:textfield;
+}
+
+.new-number::-webkit-outer-spin-button,
+.new-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+} 
+
+input {
+    outline: none;
+    border: none;
+    background-color: inherit;
+}
+
+.new-number, 
+.update-number {
+    border: 1px solid #000000;
+}
+
+tr.green {
+    background-color:#92D050;
+}
+
+tr.yellow {
+    background-color:#FFC000;
+}
+
+tr.red {
+    background-color:#C00000;
+    color: #FFFFFF;
+}
